@@ -1,28 +1,26 @@
-.column1 {
-    float: left;
-    width: 33.33%;
-    border: 5px;
-    column-gap: 5px;
-  }
+.table {
+  width: 99vw;
+  text-align: center;
+}
 
-  .column2 {
-    float: left;
-    width: 33.33%;
-    border: 5px;
-    column-gap: 5px;
-    
-  }
-  
-  .column3 {
-    float: left;
-    width: 33.33%;
-    border: 5px;
-    column-gap: 5px;
-  }
-    
+.cell1, .cell2, .cell3{
+  display: table-cell;
+  width: 32%;
+  height: 100%;
+  border: 1px;
+ 
+}
 
-  .row{
-    width: 100%;
-    border: 100px;
-    row-gap: 5px;
-  } 
+    
+.name{
+  width: 32%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.sname{
+  width: 32%;
+  height: 5vh;
+  display: inline-block;
+}
+
+
