@@ -17,7 +17,8 @@
     border: 5px;
   }
     
- 
+
   .row{
+    width: 100%;
     border: 100px;
   } 
